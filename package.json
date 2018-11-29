@@ -1,0 +1,32 @@
+{
+  "name": "share-ns-to-fanfou",
+  "version": "0.1.0",
+  "description": "Share my Nintendo Switch activities to Fanfou",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitoMore/share-ns-to-fanfou.git"
+  },
+  "author": "LitoMore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LitoMore/share-ns-to-fanfou/issues"
+  },
+  "homepage": "https://github.com/LitoMore/share-ns-to-fanfou#readme",
+  "dependencies": {
+    "download": "^7.1.0",
+    "fanfou-sdk": "^3.1.0",
+    "node-schedule": "^1.3.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "rules": {
+      "camelcase": 0
+    }
+  }
+}
